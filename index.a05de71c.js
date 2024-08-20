@@ -1,0 +1,2 @@
+function e(e){for(var t="",r=0;r<e.length;r++)e[r]===e[r].toUpperCase()&&(t+=" "),t+=e[r].toUpperCase();return t}Array.from(document.querySelectorAll("input")).forEach(function(t){var r=document.createElement("label");r.textContent=e(t.name),r.style.fontWeight="bold",r.setAttribute("for",t.id),t.setAttribute("placeholder",e(t.name)),t.parentElement.insertBefore(r,t)});
+//# sourceMappingURL=index.a05de71c.js.map
